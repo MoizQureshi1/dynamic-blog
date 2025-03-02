@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Moiz from "../images/moiz.jpg";
+import Moiz from "../images/moiz.JPG";
 
 
 
