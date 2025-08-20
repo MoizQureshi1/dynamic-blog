@@ -23,8 +23,8 @@ export default function AdsenseAd() {
       className="adsbygoogle"
       style={{ display: "block" }}
       data-ad-client="ca-pub-6419767114720512"
-      data-ad-slot="2328495808"
-      data-ad-format="auto"
+      data-ad-slot="9601331227"
+      data-ad-format="autorelaxed"
       data-full-width-responsive="true"
     ></ins>
   );

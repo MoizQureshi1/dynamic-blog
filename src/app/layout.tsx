@@ -20,11 +20,11 @@ export default function RootLayout({
       <head>
         {/* Adsense Script */}
         <Script
-  async
-  strategy="afterInteractive"
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6419767114720512"
-  crossOrigin="anonymous"
-/>
+          async
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6419767114720512"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
