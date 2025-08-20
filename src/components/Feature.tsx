@@ -1,4 +1,5 @@
 import React from "react";
+import AdsenseAd from "./adsence";
 
 export default function Feature (){
     return(
@@ -26,6 +27,7 @@ export default function Feature (){
                 </div>
                 <p className="text-sm md:text-base text-black mb-6 px-4 animate-fade-in-down delay-100  mt-10">Learning web development involves acquiring the skills to build websites and applications. It includes mastering front-end technologies like HTML, CSS, and JavaScript, as well as back-end development using databases, servers, and APIs. With the rise of AI, developers are also incorporating intelligent features such as machine learning, chatbots, and personalized content. Understanding frameworks like React, Node.js, and tools for automation can significantly enhance productivity. Combining web development with AI empowers developers to create smarter, more interactive, and dynamic web applications.</p>
             </section>
+            <AdsenseAd />
         </div>
     )
 }

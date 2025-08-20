@@ -4,6 +4,7 @@ import CommentSection from "@/components/CommentSection";
 import AuthorCard from "@/components/AuthoreCard";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import AdsenseAd from "@/components/adsence";
 
 
 const posts = [
@@ -124,6 +125,7 @@ export default function Post ({params}: {params: {id: string}}){
             <div className="mt-6 text-lg text-slate-700">{renderParagraphs(post.description)}</div>
             <CommentSection postId={post.id}/>
             <AuthorCard/>
+            <AdsenseAd />
             <Footer/>
         </div>
     )

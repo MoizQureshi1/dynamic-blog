@@ -1,9 +1,11 @@
+import AdsenseAd from "@/components/adsence";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export default function Contact() {
     return (
       <main>
+        <AdsenseAd />
         <Header/>
       <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-slate-300 max-w-screen-2xl mx-auto">
         <div className="w-full max-w-4xl p-8 bg-slate-100 shadow-lg rounded-lg">
@@ -52,6 +54,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <AdsenseAd />
       <Footer/>
       </main>
     );

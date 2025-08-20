@@ -2,12 +2,14 @@ import Feature from "@/components/Feature";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import Moiz from "../../../public/images/post.jpeg"
+import Moiz from "../../../public/images/post.jpeg";
+import AdsenseAd from "../../components/adsence";
 
 export default function AuthorCard (){
     return(
         <>
         <Header/>
+        <AdsenseAd />
         <div className="bg-neutral-100 shadow-lg rounded-lg p-6 pt-12 pb-9">
             <div className="animation-fadeIn">
                 <div className="flex justify-center">
@@ -27,7 +29,9 @@ export default function AuthorCard (){
             </div>
             </div>
         </div>
+        <AdsenseAd />
         <Feature/>
+        <AdsenseAd />
         <Footer/>
         </>
     )
